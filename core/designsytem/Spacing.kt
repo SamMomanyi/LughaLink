@@ -1,4 +1,4 @@
-package com.banja.core.designsystem.theme
+package com.lughalink.core.designsystem.theme
 
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.unit.Dp
@@ -6,9 +6,9 @@ import androidx.compose.ui.unit.dp
 
 /**
  * 8dp-rhythm spacing scale. Material 3 has no native spacing subsystem, so this is provided
- * as its own token set alongside color/type/shape — read it as `BanjaTheme.spacing.md` etc.
+ * as its own token set alongside color/type/shape — read it as `LughaLinkTheme.spacing.md` etc.
  */
-data class BanjaSpacing(
+data class LughaLinkSpacing(
     val unit: Dp = 8.dp,
     val xs: Dp = 4.dp,
     val sm: Dp = 8.dp,
@@ -22,4 +22,4 @@ data class BanjaSpacing(
     val screenMargin: Dp = 20.dp,
 )
 
-internal val LocalBanjaSpacing = staticCompositionLocalOf { BanjaSpacing() }
+internal val LocalLughaLinkSpacing = staticCompositionLocalOf { LughaLinkSpacing() }
