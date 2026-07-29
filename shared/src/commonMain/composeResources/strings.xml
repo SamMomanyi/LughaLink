@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Essentials -->
+    <string name="app_name">Banja</string>
+    <string name="app_tagline">The Cultural Archive</string>
+
+    <!-- Onboarding & Navigation -->
+    <string name="welcome_headline">Learn Kenyan languages easily.</string>
+    <string name="welcome_subtitle">Discover the digital resources you need to learn Kenyan languages. Discover the words, phrases, and dialogues that turn a country into a community.</string>
+    <string name="action_get_started">Get Started</string>
+    <string name="action_log_in">Log In</string>
+    <string name="action_claim_heritage">Claim Heritage</string>
+    <string name="action_read_blog">Read Our Blog</string>
+
+    <!-- Path Selection -->
+    <string name="pick_path_title">Pick Your Path</string>
+    <string name="pick_path_subtitle">Which world do you want to explore first?</string>
+
+    <!-- Generic UI -->
+    <string name="action_continue">Continue</string>
+    <string name="action_offline_download">Download for Offline</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>
